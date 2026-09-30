@@ -1,0 +1,22 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="savory-grad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FB923C"/>
+      <stop offset="60%" stop-color="#F97316"/>
+      <stop offset="100%" stop-color="#EA580C"/>
+    </linearGradient>
+    <filter id="subtle-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#EA580C" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <!-- Orange rounded-square icon -->
+  <rect width="64" height="64" rx="16" fill="url(#savory-grad)" filter="url(#subtle-glow)"/>
+  
+  <!-- White Fork & Spoon symbol -->
+  <g fill="#FFFFFF" transform="translate(14, 12)">
+    <!-- Fork (left) -->
+    <path d="M7 2C7 1.45 6.55 1 6 1C5.45 1 5 1.45 5 2V12C5 13.66 6.34 15 8 15V36C8 37.1 8.9 38 10 38C11.1 38 12 37.1 12 36V15C13.66 15 15 13.66 15 12V2C15 1.45 14.55 1 14 1C13.45 1 13 1.45 13 2V10H11V2C11 1.45 10.55 1 10 1C9.45 1 9 1.45 9 2V10H7V2Z" opacity="0.98"/>
+    <!-- Spoon (right) -->
+    <path d="M26 2C21.5 2 19 6 19 11C19 14.5 21.2 16.8 23.5 17.5V36C23.5 37.1 24.4 38 25.5 38C26.6 38 27.5 37.1 27.5 36V17.5C29.8 16.8 32 14.5 32 11C32 6 29.5 2 26 2Z" opacity="0.98"/>
+  </g>
+</svg>

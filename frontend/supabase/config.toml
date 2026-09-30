@@ -1,0 +1,5 @@
+project_id = "wsxjdgopuddumunewrzy"
+
+[functions.create-order]
+verify_jwt = false
+entrypoint = "./functions/create-order/index.ts"
